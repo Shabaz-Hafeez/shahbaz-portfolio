@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
@@ -6,6 +6,12 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+
+// Initialize EmailJS
+const publicKey = import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY;
+if (!publicKey) {
+  console.error("EmailJS public key is missing. Please check your .env file.");
+}
 
 const Contact = () => {
   const formRef = useRef();
@@ -16,6 +22,12 @@ const Contact = () => {
   });
 
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    if (publicKey) {
+      emailjs.init(publicKey);
+    }
+  }, []);
 
   const handleChange = (e) => {
     const { target } = e;
@@ -37,10 +49,10 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "engr.shahbazmir@gmail.com", // Add your receiving email here
           message: form.message,
+          reply_to: form.email,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
