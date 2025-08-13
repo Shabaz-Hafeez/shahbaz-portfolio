@@ -211,7 +211,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://bgs.edu.pk/",
   },
   {
     name: "PMYP(Digital Youth Hub)",
@@ -232,7 +232,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://pmyp.gov.pk/",
   },
   {
     name: "Cyberdise",
@@ -253,7 +253,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://cyberdise-awareness.com/",
   },
 ];
 
