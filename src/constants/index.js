@@ -10,15 +10,22 @@ import {
   reactjs,
   redux,
   tailwind,
+  laravel,
+  codeigniter,
+  yii2,
+  apisix,
+  kubernetes,
+  jenkins,
+  jira,
+  livewire,
   nodejs,
   mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  upwork,
+  centangle,
+  mtbc,
   carrent,
   jobit,
   tripguide,
@@ -42,19 +49,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Microservices",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "PHP Laravel Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "DevOps",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Wordpress",
     icon: creator,
   },
 ];
@@ -73,40 +80,40 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Laravel",
+    icon: laravel,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Codeigniter",
+    icon: codeigniter,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Yii2",
+    icon: yii2,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "APISIX",
+    icon: apisix,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Kubernetes",
+    icon: kubernetes,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Jenkins",
+    icon: jenkins,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Jira",
+    icon: jira,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "livewire",
+    icon: livewire,
   },
   {
     name: "docker",
@@ -116,57 +123,45 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "Upwork",
+    icon: upwork,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "March 2021 - September 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using wordpress and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Backend Developer",
+    company_name: "Centangle Interactive",
+    icon: centangle,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Oct 2023 - Dec 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed the entire backend architecture using Laravel and Yii2 Advanced",
+      "Built and maintained independent backend microservices (authentication, profile, recommendation) using REST APIs and JWT, following domain-driven design for clean separation",
+      "Designed optimized MySQL schemas and service-specific data stores with indexes and stored procedures, reducing query latency by 25–35%. Collaborated with the team to improve user experience, resulting in a 20% increase in website traffic.",
+      "Collaborated with frontend/integration teams to define API contracts, enabling seamless UX integration and contributing to rapid user adoption and engagement Managing the work log and following the schedule to ensure completion of projects before deadline.",
     ],
   },
+  {
+    title: "Full Stack Laravel Developer",
+    company_name: "MTBC Carecloud",
+    icon: mtbc,
+    iconBg: "#383E56",
+    date: "Jan 2025 - Present",
+    points: [
+      "Developed custom modules for online admissions, transport, online tests, and fee invoicing.",
+      "Implemented secure online payment integrations (EasyPaisa, PayPal). ",
+      "Worked in Agile environment Participated in daily stand-ups and sprint planning meetings to ensure timely project delivery. ",
+      "Developed and executed unit test cases for project files, ensuring robustness and reliability.",
+    ],
+  },
+  
 ];
 
 const testimonials = [
@@ -198,20 +193,20 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Portal BGS",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A comprehensive web-based school management system that handles everything from online admissions and invoicing to transportation management, online examinations, attendance tracking, academic records, and more.",
     tags: [
       {
-        name: "react",
+        name: "Laravel-Livewire",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "twilio",
         color: "pink-text-gradient",
       },
     ],
@@ -219,12 +214,12 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "PMYP(Digital Youth Hub)",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The Digital Youth Hub (DYH) is a groundbreaking, AI-powered digital platform established under the Prime Minister’s Youth Programme (PMYP), in collaboration with UNICEF's Generation Unlimited (GenU). Designed as Pakistan’s first-of-its-kind “one-stop shop,” it connects youth nationwide to transformative opportunities across four core pillars: Education, Employment, Engagement, and Environment.",
     tags: [
       {
-        name: "react",
+        name: "Yii2Advanced",
         color: "blue-text-gradient",
       },
       {
@@ -240,12 +235,12 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Cyberdise",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web based AI-powered cybersecurity awareness and training platform offering organizations tools to build phishing and smishing simulation campaigns alongside tailored training for employees",
     tags: [
       {
-        name: "nextjs",
+        name: "laravel",
         color: "blue-text-gradient",
       },
       {

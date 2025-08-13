@@ -20,11 +20,22 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import laravel from "./tech/laravel.png";
+import codeigniter from "./tech/codeigniter.png";
+import yii2 from "./tech/yii2.png";
+import apisix from "./tech/apisix.jpeg";
+import kubernetes from "./tech/kubernetes.png";
+import jenkins from "./tech/jenkins.jpeg";
+import jira from "./tech/jira.jpeg";
+import livewire from "./tech/livewire.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import upwork from "./company/upwork.png";
+import centangle from "./company/centangle.png";
+import mtbc from "./company/mtbc.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -52,10 +63,21 @@ export {
   tailwind,
   typescript,
   threejs,
+  laravel,
+  codeigniter,
+  yii2,
+  apisix,
+  kubernetes,
+  jenkins,
+  jira,
+  livewire,
   meta,
   shopify,
   starbucks,
   tesla,
+  upwork,
+  centangle,
+  mtbc,
   carrent,
   jobit,
   tripguide,
